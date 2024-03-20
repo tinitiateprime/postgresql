@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](../../git-master/postgresql/README.md)
+##### [Back To Context](./README.md)
 
 # Introduction to PostgreSQL
 * PostgreSQL is a powerful, open-source object-relational database system.
@@ -29,4 +29,4 @@
 * PostgreSQL is a versatile and powerful database system that offers advanced features, scalability, and reliability.
 * Whether you're building a small application or a large-scale enterprise system, PostgreSQL is a solid choice for your database needs.
 
-##### [Back To Context](../../git-master/postgresql/README.md)
+##### [Back To Context](./README.md)
