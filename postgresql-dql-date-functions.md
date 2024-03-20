@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - Date Functions
 * Date functions in PostgreSQL are used to perform various operations on date and timestamp data stored in the database.
@@ -69,4 +69,4 @@ SELECT TO_CHAR(hiredate, 'YYYY-MM-DD') FROM employees.emp;
 SELECT EXTRACT(DOW FROM hiredate) FROM employees.emp;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

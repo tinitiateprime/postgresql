@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - Basic Operators
 * In PostgreSQL, operators are symbols or keywords used to perform operations on data, such as arithmetic operations, logical comparisons, and pattern matching.
@@ -160,4 +160,4 @@ WHERE NOT EXISTS (
 );
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

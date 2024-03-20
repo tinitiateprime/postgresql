@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # PostgreSQL Data Types
 * PostgreSQL provides a range of data types, each with unique attributes and advantages.
@@ -76,4 +76,4 @@
     * **VARBIT(n)** - Stores variable-length bit strings. 
         * **Example:** `flags VARBIT(16)`.
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

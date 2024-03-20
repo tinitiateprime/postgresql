@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - Data Query Language
 * In PostgreSQL, DQL (Data Query Language) refers to the subset of SQL (Structured Query Language) specifically designed for querying and retrieving data from a PostgreSQL database.
@@ -125,4 +125,4 @@ FROM employees.emp
 LIMIT 5 OFFSET 10;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

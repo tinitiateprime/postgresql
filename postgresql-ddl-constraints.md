@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DDL - Constraints
 * In PostgreSQL, Data Definition Language (DDL) constraints are rules applied to the structure of a database table.
@@ -115,4 +115,4 @@ CREATE TABLE orders (
 );
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

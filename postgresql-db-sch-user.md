@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # Database, Schema, and User
 * In PostgreSQL, a database is a collection of organized data, a schema is a logical container for database objects, and a user is an entity with access privileges to interact with the database system.
@@ -40,4 +40,4 @@ CREATE USER developer WITH PASSWORD 'Tinitiate!23';
 CREATE SCHEMA employees AUTHORIZATION tiuser;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

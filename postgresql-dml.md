@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DML - Data Manipulation Language
 * In PostgreSQL, DML (Data Manipulation Language) consists of SQL commands that allow users to manipulate data within a database.
@@ -83,4 +83,4 @@ DELETE FROM dept WHERE deptid = 3000;
 DELETE FROM emp WHERE empid = 101;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

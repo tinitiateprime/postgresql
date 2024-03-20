@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - Set Operations
 * Set operations in SQL are used to combine or compare the results of two or more queries.
@@ -84,4 +84,4 @@ EXCEPT ALL
 SELECT ename FROM employees.emp_projects;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

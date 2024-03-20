@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - Joins
 * A join in SQL is used to combine rows from two or more tables based on a related column between them.
@@ -61,4 +61,4 @@ FROM employees.emp e
 CROSS JOIN employees.dept d;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

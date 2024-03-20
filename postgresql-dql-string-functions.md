@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DQL - String Functions
 * String functions in PostgreSQL are used to manipulate text data.
@@ -102,4 +102,4 @@ SELECT REVERSE(ename) FROM employees.emp;
 SELECT REPLACE(dname, 'a', 'X') FROM employees.dept;
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)

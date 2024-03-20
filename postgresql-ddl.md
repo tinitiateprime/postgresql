@@ -3,7 +3,7 @@
 # PostgreSQL
 &copy; TINITIATE.COM
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
 
 # DDL - Data Definition Language
 * In PostgreSQL, DDL (Data Definition Language) refers to a set of SQL commands used to define, modify, and remove the structure of database objects. These objects include tables, indexes, views, schemas, sequences, and more. 
@@ -90,4 +90,4 @@ CREATE TABLE emp.dept (
 );
 ```
 
-##### [Back To Context](readme.md)
+##### [Back To Context](./README.md)
