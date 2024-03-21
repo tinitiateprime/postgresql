@@ -92,3 +92,6 @@
     * LEAD()
     * FIRST_VALUE()
     * LAST_VALUE()
+***
+| &copy; TINITIATE.COM |
+|----------------------|
