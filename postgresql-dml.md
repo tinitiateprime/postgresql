@@ -50,7 +50,7 @@ FROM emp.dept;
 
 -- Incorrect data violations
 -- Primary Key violation
-INSERT INTO emp.dept (deptid, dname) VALUES (7000, 'MARKETING');
+INSERT INTO emp.dept (deptid, dname) VALUES (4000, 'MARKETING');
 
 -- DataType Size violation
 INSERT INTO emp.dept (deptid, dname) 
@@ -58,7 +58,7 @@ VALUES (6, 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
 
 -- Foreign Key violation
-INSERT INTO emp VALUES (16, '4A', 11000.00, 6);
+INSERT INTO emp.emp VALUES (16, '4A', 11000.00, 6);
 ```
 
 ### UPDATE:
@@ -66,10 +66,10 @@ INSERT INTO emp VALUES (16, '4A', 11000.00, 6);
 * You can update one or more columns of existing rows based on a specified condition.
 ```sql
 -- Update salary of an employee
-UPDATE emp SET sal = 6200.00 WHERE empid = 101;
+UPDATE emp.emp SET sal = 6200.00 WHERE empid = 101;
 
 -- Update project end date
-UPDATE EmpProjects SET EndDate = '2024-06-01'
+UPDATE emp.EmpProjects SET EndDate = '2024-06-01'
  WHERE ProjectID = 1 AND EmpID = 101;
 ```
 
@@ -77,10 +77,13 @@ UPDATE EmpProjects SET EndDate = '2024-06-01'
 * This command is used to remove one or more rows from a table based on a specified condition.
 ```sql
 -- Delete a dept
-DELETE FROM dept WHERE deptid = 3000;
+DELETE FROM emp.dept WHERE deptid = 3000;
 
 -- Remove an employee
-DELETE FROM emp WHERE empid = 101;
+DELETE FROM emp.emp WHERE empid = 101;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

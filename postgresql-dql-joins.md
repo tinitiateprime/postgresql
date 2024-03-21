@@ -62,3 +62,6 @@ CROSS JOIN employees.dept d;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

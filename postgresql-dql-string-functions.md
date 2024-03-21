@@ -103,3 +103,6 @@ SELECT REPLACE(dname, 'a', 'X') FROM employees.dept;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

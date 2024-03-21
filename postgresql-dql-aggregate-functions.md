@@ -189,3 +189,6 @@ AND (e.sal = salary_extremes.max_salary OR e.sal = salary_extremes.min_salary);
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

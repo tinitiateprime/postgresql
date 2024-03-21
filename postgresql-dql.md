@@ -126,3 +126,6 @@ LIMIT 5 OFFSET 10;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

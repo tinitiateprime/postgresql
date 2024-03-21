@@ -41,3 +41,6 @@ CREATE SCHEMA employees AUTHORIZATION tiuser;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

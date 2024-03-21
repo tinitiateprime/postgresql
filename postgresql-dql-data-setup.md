@@ -241,3 +241,6 @@ INSERT INTO employees.emp_projects (
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

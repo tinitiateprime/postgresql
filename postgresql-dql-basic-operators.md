@@ -161,3 +161,6 @@ WHERE NOT EXISTS (
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

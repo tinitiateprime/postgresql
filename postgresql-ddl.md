@@ -15,7 +15,8 @@
 ```sql
 -- Schema DDL
 CREATE SCHEMA emp;
-ALTER SCHEMA emp OWNER TO tinitiate;
+CREATE USER ti WITH PASSWORD 'Tinitiate!23';
+ALTER SCHEMA emp OWNER TO ti;
 
 -- Set the schema where you want to create the DB objects
 SET search_path TO emp;
@@ -91,3 +92,6 @@ CREATE TABLE emp.dept (
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

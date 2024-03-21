@@ -70,3 +70,6 @@ SELECT EXTRACT(DOW FROM hiredate) FROM employees.emp;
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

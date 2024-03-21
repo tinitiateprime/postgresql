@@ -30,3 +30,6 @@
 * Whether you're building a small application or a large-scale enterprise system, PostgreSQL is a solid choice for your database needs.
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

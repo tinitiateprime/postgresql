@@ -8,7 +8,7 @@
 # PostgreSQL Data Types
 * PostgreSQL provides a range of data types, each with unique attributes and advantages.
 
-## Commonly used data types in PostgreSQL
+## Commonly used data types in PostgreSQL:
 * **Numeric** data types are used to store numbers. There are several different numeric data types available, each with its own range and precision. The most common numeric data types are:
 
     * **INTEGER (INT)** - Stores whole numbers from -2147483648 to 2147483647. 
@@ -19,11 +19,13 @@
     * **DECIMAL** - Stores numbers with a fixed number of decimal places. For example, DECIMAL(5,2) can store numbers from -9999.99 to 9999.99. 
         * **Example:** `price DECIMAL(10,2)`.
     * **NUMERIC** - Stores numbers with a variable number of decimal places. 
-        * **Example:** `quantity NUMERIC`.
+        * **Example:** `quantity NUMERIC(7,2)`.
     * **REAL** - Stores floating-point numbers with 6 digits of precision. 
         * **Example:** `temperature REAL`.
     * **DOUBLE PRECISION** - Stores floating-point numbers with 15 digits of precision. 
         * **Example:** `distance DOUBLE PRECISION`.
+    * **SERIAL** data type automatically generates unique sequential integer values for a column.
+        * **Example:** `id SERIAL`.
 * **Date and Time** data types are used to store dates and times. The most common date and time data types are:
     * **DATE** - Stores a date in the format YYYY-MM-DD. 
         * **Example:** `birthdate DATE`.
@@ -77,3 +79,6 @@
         * **Example:** `flags VARBIT(16)`.
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|

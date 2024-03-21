@@ -7,7 +7,8 @@
 
 # DDL - Constraints
 * In PostgreSQL, Data Definition Language (DDL) constraints are rules applied to the structure of a database table.
-* These constraints ensure data integrity and consistency by enforcing certain conditions on the data being inserted, updated, or deleted in the table. 
+* These constraints ensure data integrity and consistency by enforcing certain conditions on the data being inserted, updated, or deleted in the table.
+* These constraints are applied to columns when the table is created or altered.
 
 ## Here are the common types of DDL constraints in PostgreSQL:
 ### NOT NULL Constraint:
@@ -19,7 +20,7 @@ ALTER TABLE emp
 ALTER COLUMN empid SET NOT NULL,
 ALTER COLUMN ename SET NOT NULL;
 
--- We can also specify this constraint while table creation, for example
+-- We can also specify this constraint while table creation; for example
 CREATE TABLE staff (
     id SERIAL PRIMARY KEY,
     name VARCHAR NOT NULL,
@@ -34,11 +35,9 @@ CREATE TABLE staff (
 ALTER TABLE emp
 ADD CONSTRAINT unique_empid UNIQUE (empid);
 
--- We can also specify this constraint while table creation, for example
+-- We can also specify this constraint while table creation; for example
 CREATE TABLE students (
     student_id SERIAL,
-    -- Here the SERIAL data type stores a sequential integer,
-    -- of the INT data type
     email VARCHAR UNIQUE,
     name VARCHAR
 );
@@ -52,7 +51,7 @@ CREATE TABLE students (
 ALTER TABLE projects
 ADD CONSTRAINT chk_project_budget CHECK (ProjectBudget > 0);
 
--- We can also specify this constraint while table creation, for example
+-- We can also specify this constraint while table creation; for example
 CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
     product_name VARCHAR,
@@ -81,7 +80,7 @@ ADD CONSTRAINT pk_projects PRIMARY KEY (ProjectID);
 ALTER TABLE EmpProjects
 ADD CONSTRAINT pk_empprojects PRIMARY KEY (EP_ID);
 
--- We can also specify this constraint while table creation, for example
+-- We can also specify this constraint while table creation; for example
 CREATE TABLE orders (
     order_id SERIAL PRIMARY KEY,
     customer_id INTEGER,
@@ -106,7 +105,7 @@ ADD CONSTRAINT fk_emp_id FOREIGN KEY (EmpID) REFERENCES emp(empid),
 ADD CONSTRAINT fk_project_id FOREIGN KEY (ProjectID)
  REFERENCES projects(ProjectID);
 
--- We can also specify this constraint while table creation, for example
+-- We can also specify this constraint while table creation; for example
 CREATE TABLE orders (
     order_id SERIAL PRIMARY KEY,
     customer_id INTEGER REFERENCES customers(customer_id),
@@ -116,3 +115,6 @@ CREATE TABLE orders (
 ```
 
 ##### [Back To Context](./README.md)
+***
+| &copy; TINITIATE.COM |
+|----------------------|
