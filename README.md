@@ -45,7 +45,7 @@
 * ### [DQL - Set Operations](postgresql-dql-set-operations.md)
     * Union
     * Intersect
-    * EXCEPT
+    * Except
 * ### [DQL - Joins](postgresql-dql-joins.md)
     * Inner Join
     * Left Join (or Left Outer Join)
