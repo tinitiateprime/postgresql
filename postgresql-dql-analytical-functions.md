@@ -46,7 +46,7 @@ SELECT empno, ename, ROW_NUMBER() OVER (ORDER BY empno) AS row_num
 FROM employees.emp;
 
 -- Assigns a unique integer to each row within the partition.
-SELECT empno, ename, ROW_NUMBER() OVER (PARTITION BY deptno) AS row_num
+SELECT empno, ename, deptno, ROW_NUMBER() OVER (PARTITION BY deptno) AS row_num
 FROM employees.emp;
 
 -- Assigns a unique integer to each row within a partition, based on salary,
