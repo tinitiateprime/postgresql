@@ -49,7 +49,7 @@ SELECT DATE_PART('day', hiredate) FROM employees.emp;
 ### Date Addition/Subtraction:
 * Adds or subtracts a specified interval (such as days, months) from a date or timestamp.
 ```sql
--- Add or subtract a specific number of days from a date
+-- Add a specific number of days from a date
 SELECT hiredate + INTERVAL '7 days' FROM employees.emp;
 
 -- Subtract 6 months from the 'hiredate' column in the employees table
@@ -61,7 +61,7 @@ SELECT hiredate - INTERVAL '6 months' FROM employees.emp;
 -- Format the 'hiredate' column in a specific date format
 SELECT TO_CHAR(hiredate, 'YYYY-MM-DD') FROM employees.emp;
 ```
-### Weekday Function (EXTRACT and DATE_PART):
+### Weekday Function (EXTRACT):
 * Returns the day of the week (0 for Sunday, 1 for Monday, etc.) from a date or timestamp.
 ```sql
 -- Retrieve the day of the week (0 for Sunday, 1 for Monday, etc.) from

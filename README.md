@@ -45,7 +45,7 @@
 * ### [DQL - Set Operations](postgresql-dql-set-operations.md)
     * Union
     * Intersect
-    * EXCEPT (or MINUS)
+    * EXCEPT
 * ### [DQL - Joins](postgresql-dql-joins.md)
     * Inner Join
     * Left Join (or Left Outer Join)
@@ -75,7 +75,7 @@
     * Date Part Function (DATE_PART)
     * Date Addition/Subtraction
     * Date Formatting (TO_CHAR)
-    * Weekday Function (EXTRACT and DATE_PART)
+    * Weekday Function (EXTRACT)
 * ### [DQL - Aggregate Functions](postgresql-dql-aggregate-functions.md)
     * Count
     * Sum

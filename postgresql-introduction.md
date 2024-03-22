@@ -10,7 +10,7 @@
 * It is known for its reliability, robustness, and feature-rich capabilities, making it a popular choice for many applications, from small projects to large-scale enterprise systems.
 
 ## Key Features
-- **Advanced SQL Support**: PostgreSQL supports a wide range of SQL features, including complex queries, indexing, and transactions.
+- **Advanced SQL Support**: PostgreSQL supports a wide range of SQL(Structured Query Language) features, including complex queries, indexing, and transactions.
   
 - **Extensibility**: It allows users to define their own data types, functions, and more, extending the core functionality of the database.
 - **Data Integrity**: PostgreSQL provides robust data integrity features, including constraints, foreign keys, and transactions, ensuring data reliability.

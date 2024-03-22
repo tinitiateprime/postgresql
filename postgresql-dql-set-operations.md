@@ -63,7 +63,7 @@ INTERSECT ALL
 SELECT empno FROM employees.emp_projects;
 ```
 ### EXCEPT:
-* The EXCEPT (or MINUS) operator is used to retrieve the rows that appear in the first result set but not in the result sets of one or more subsequent SELECT statements. It removes duplicate rows by default.
+* The EXCEPT operator is used to retrieve the rows that appear in the first result set but not in the result sets of one or more subsequent SELECT statements. It removes duplicate rows by default.
 ```sql
 -- Retrieve empno numbers from the employees table that
 -- do not exist in the emp_projects table
