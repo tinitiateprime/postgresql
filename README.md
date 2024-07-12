@@ -66,6 +66,8 @@
     * Right Function (RIGHT)
     * Reverse Function (REVERSE)
     * Replace Function (REPLACE)
+    * Case Statement (CASE)
+    * Coalesce Function (COALESCE)
 * ### [DQL - Date Functions](postgresql-dql-date-functions.md)
     * Current Date (CURRENT_DATE)
     * Current Timestamp (CURRENT_TIMESTAMP)
@@ -76,6 +78,19 @@
     * Date Addition/Subtraction
     * Date Formatting (TO_CHAR)
     * Weekday Function (EXTRACT)
+    * Date to String (Various formats)
+    * DateTime to String (Various Formats)
+    * String to Date (Various Formats)
+    * String to DateTime (Various Formats)
+    * DateTime and TimeZone
+        * Date, Timezones, UTC, and Offsets
+            * Date and Time
+            * Timezones
+            * UTC
+            * Offsets
+            * Applying an Offset to a Date Datatype Column
+        * Cast a DateTime to DateTime with TimeZone (in UTC, EST, and IST TimeZones)
+        * Cast a DateTime Timezone to another TimeZone
 * ### [DQL - Aggregate Functions](postgresql-dql-aggregate-functions.md)
     * Count
     * Sum

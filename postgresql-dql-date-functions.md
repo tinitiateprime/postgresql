@@ -68,7 +68,7 @@ SELECT TO_CHAR(hiredate, 'YYYY-MM-DD') FROM employees.emp;
 -- the 'hiredate' column
 SELECT EXTRACT(DOW FROM hiredate) FROM employees.emp;
 ```
-### Date to String (Various Formats)
+### Date to String (Various Formats):
 * You can convert a date to a string in various formats using the `TO_CHAR(arg1, arg2)` function.
 ```sql
 -- YYYY-MM-DD
@@ -103,7 +103,7 @@ FROM employees.emp;
 SELECT empno, ename, TO_CHAR(hiredate, 'DD Mon YYYY') AS hiredate
 FROM employees.emp;
 ```
-### DateTime to String (Various Formats)
+### DateTime to String (Various Formats):
 * To convert a datetime to a string in various formats, you can use the `TO_CHAR(arg1, arg2)` function, same like date to a string but with different format codes.
 ```sql
 -- YYYY-MM-DD HH:MI:SS
@@ -123,7 +123,7 @@ SELECT TO_CHAR(CURRENT_TIMESTAMP, 'DD Mon YYYY HH24:MI:SS.MS') AS datetimetostri
 -- Mon DD YYYY HH:MI:SS:MMMAM (or PM)
 SELECT TO_CHAR(CURRENT_TIMESTAMP, 'Mon DD YYYY HH:MI:SS.MSAM') AS datetimetostring;
 ```
-### String to Date (Various Formats)
+### String to Date (Various Formats):
 * You can convert a string in various formats to a date using the `TO_DATE(arg2, arg3)` function.
 ```sql
 -- YYYY-MM-DD
@@ -141,7 +141,7 @@ SELECT TO_DATE('Apr 15, 2023', 'Mon DD, YYYY') AS date;
 -- YYYYMMDD
 SELECT TO_DATE('20230415', 'YYYYMMDD') AS date;
 ```
-### String to DateTime (Various Formats)
+### String to DateTime (Various Formats):
 * You can convert a string in various formats to a datetime using the `TO_TIMESTAMP(arg2, arg3)` function.
 ```sql
 -- YYYY-MM-DD HH:MI:SS
@@ -159,8 +159,8 @@ SELECT TO_TIMESTAMP('Apr 15 2023 01:30:45:375', 'Mon DD YYYY HH24:MI:SS.MS') AS 
 -- YYYYMMDD HH:MI:SS
 SELECT TO_TIMESTAMP('20230415 13:30:45', 'YYYYMMDD HH24:MI:SS') AS datetime;
 ```
-### DateTime and TimeZone
-#### Date, Timezones, UTC, and Offsets
+### DateTime and TimeZone:
+#### Date, Timezones, UTC, and Offsets:
 * **Date and Time**: In computing, dates and times are represented using various data types. A common approach is to use a datetime data type that includes both date and time information.
 * **Timezones**: Timezones are regions of the Earth that have the same standard time. Each timezone is usually offset from Coordinated Universal Time (UTC) by a certain number of hours and minutes. For example, Eastern Standard Time (EST) is UTC-5, meaning it is 5 hours behind UTC.
 * **UTC**: Coordinated Universal Time (UTC) is the primary time standard by which the world regulates clocks and time. It is not adjusted for daylight saving time. UTC is often used as a reference point for converting between different timezones.
@@ -171,7 +171,7 @@ SELECT TO_TIMESTAMP('20230415 13:30:45', 'YYYYMMDD HH24:MI:SS') AS datetime;
 SELECT hiredate + INTERVAL '5 hours' AS adjusted_datetime
 FROM employees.emp;
 ```
-#### Cast a DateTime to DateTime with TimeZone (in UTC, EST, and IST TimeZones)
+#### Cast a DateTime to DateTime with TimeZone (in UTC, EST, and IST TimeZones):
 * You can cast a datetime to a datetime with timezone using the `AT TIME ZONE` function.
 ```sql
 SELECT 
@@ -201,7 +201,7 @@ BEGIN
     RAISE NOTICE 'ISTDateTime: %', istDateTime;
 END $$;
 ```
-#### Cast a DateTime Timezone to another TimeZone
+#### Cast a DateTime Timezone to another TimeZone:
 * As SQL
 ```sql
 SELECT 
@@ -221,7 +221,6 @@ BEGIN
     RAISE NOTICE 'ESTDateTime: %', estDateTime;
 END $$;
 ```
-
 
 ##### [Back To Context](./README.md)
 ***
