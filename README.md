@@ -107,6 +107,12 @@
     * LEAD()
     * FIRST_VALUE()
     * LAST_VALUE()
+* ### [DQL - Common Table Expressions (CTEs)](postgresql-dql-cte.md)
+    * Creating a CTE
+    * Using Multiple CTEs
+    * Recursive CTEs
+    * Common Use Cases for CTEs
+    * Benefits of Using CTEs
 ***
 | &copy; TINITIATE.COM |
 |----------------------|
