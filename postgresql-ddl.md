@@ -13,6 +13,9 @@
 ### CREATE:
 * Used to create new database objects like tables, indexes, views, schemas, sequences, etc.
 ```sql
+-- Use database
+USE DATABASE tinitiate;
+
 -- Schema DDL
 CREATE SCHEMA emp;
 CREATE USER ti WITH PASSWORD 'Tinitiate!23';
