@@ -171,6 +171,7 @@ SELECT TO_TIMESTAMP('20230415 13:30:45', 'YYYYMMDD HH24:MI:SS') AS datetime;
 SELECT hiredate + INTERVAL '5 hours' AS adjusted_datetime
 FROM employees.emp;
 ```
+
 #### Cast a DateTime to DateTime with TimeZone (in UTC, EST, and IST TimeZones):
 * You can cast a datetime to a datetime with timezone using the `AT TIME ZONE` function.
 ```sql
@@ -180,44 +181,11 @@ SELECT
     '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'EST' AS ESTDateTime,
     '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'IST' AS ISTDateTime;
 ```
-* Demonstration in Code Block
-```sql
-DECLARE
-    datetime TIMESTAMP := '2024-04-17 15:30:00';
-    utcDateTime TIMESTAMP;
-    estDateTime TIMESTAMP;
-    istDateTime TIMESTAMP;
-BEGIN
-    -- Cast the variables to UTC, EST, and IST
-    utcDateTime := datetime AT TIME ZONE 'UTC';
-    estDateTime := datetime AT TIME ZONE 'EST';
-    istDateTime := datetime AT TIME ZONE 'IST';
-
-    -- Raise notice for output
-    RAISE NOTICE 'OriginalDateTime: %', datetime;
-    RAISE NOTICE 'UTCDateTime: %', utcDateTime;
-    RAISE NOTICE 'ESTDateTime: %', estDateTime;
-    RAISE NOTICE 'ISTDateTime: %', istDateTime;
-END;
-```
 #### Cast a DateTime Timezone to another TimeZone:
-* As SQL
 ```sql
 SELECT 
     '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC' AS UTCDateTime,
     ('2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC') AT TIME ZONE 'EST' AS ESTDateTime;
-```
-* As code block
-```sql
-DECLARE
-    utcDateTime TIMESTAMP := '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC';
-    estDateTime TIMESTAMP;
-BEGIN
-    estDateTime := utcDateTime AT TIME ZONE 'EST';
-
-    RAISE NOTICE 'UTCDateTime: %', utcDateTime;
-    RAISE NOTICE 'ESTDateTime: %', estDateTime;
-END;
 ```
 
 ##### [Back To Context](./README.md)
