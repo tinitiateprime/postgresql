@@ -182,7 +182,6 @@ SELECT
 ```
 * Demonstration in Code Block
 ```sql
-DO $$ 
 DECLARE
     datetime TIMESTAMP := '2024-04-17 15:30:00';
     utcDateTime TIMESTAMP;
@@ -199,13 +198,26 @@ BEGIN
     RAISE NOTICE 'UTCDateTime: %', utcDateTime;
     RAISE NOTICE 'ESTDateTime: %', estDateTime;
     RAISE NOTICE 'ISTDateTime: %', istDateTime;
-END $$;
+END;
 ```
 #### Cast a DateTime Timezone to another TimeZone:
+* As SQL
 ```sql
 SELECT 
     '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC' AS UTCDateTime,
     ('2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC') AT TIME ZONE 'EST' AS ESTDateTime;
+```
+* As code block
+```sql
+DECLARE
+    utcDateTime TIMESTAMP := '2024-04-17 15:30:00'::timestamp AT TIME ZONE 'UTC';
+    estDateTime TIMESTAMP;
+BEGIN
+    estDateTime := utcDateTime AT TIME ZONE 'EST';
+
+    RAISE NOTICE 'UTCDateTime: %', utcDateTime;
+    RAISE NOTICE 'ESTDateTime: %', estDateTime;
+END;
 ```
 
 ##### [Back To Context](./README.md)
