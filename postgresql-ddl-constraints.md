@@ -20,7 +20,7 @@ ALTER TABLE emp
 ALTER COLUMN empid SET NOT NULL,
 ALTER COLUMN ename SET NOT NULL;
 
--- We can also specify this constraint while table creation; for example
+-- We can also specify this constraint while table creation; for example 
 CREATE TABLE staff (
     id SERIAL PRIMARY KEY,
     name VARCHAR NOT NULL,
