@@ -15,13 +15,16 @@
 * SELECT statements can also include various clauses for filtering, sorting, and grouping the data.
 ```sql
 -- Retrieve all columns from the emp table
-SELECT * FROM employees.emp;
+SELECT *
+FROM employees.emp;
 
 -- Retrieve empno, ename and job colums from the emp table
-SELECT empno, ename, job FROM employees.emp;
+SELECT empno, ename, job
+FROM employees.emp;
 
 -- DISTINCT can be used to retrieve unique titles from the column
-SELECT DISTINCT job FROM employees.emp;
+SELECT DISTINCT job
+FROM employees.emp;
 
 -- Using alias to display column name as per requirement
 SELECT DISTINCT job AS employeejob FROM employees.emp;
