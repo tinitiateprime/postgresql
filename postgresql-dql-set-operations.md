@@ -15,7 +15,7 @@
 * The UNION operator is used to combine the results of two or more SELECT statements into a single result set.
 * It returns all distinct rows from both result sets. It removes duplicate rows by default.
 ```sql
--- Retrieve unique department numbers from both the employees
+-- Retrieve unique department numbers from both the employees 
 -- and projects tables
 SELECT deptno FROM employees.emp
 UNION
