@@ -18,7 +18,7 @@
 -- Retrieve employee information along with their department names
 SELECT e.*, d.dname
 FROM employees.emp e
-INNER JOIN employees.dept d ON e.deptno = d.deptno;
+INNER JOIN employees.dept d ON e.deptno = d.deptno; 
 ```
 ### LEFT JOIN (or LEFT OUTER JOIN):
 * A LEFT JOIN returns all rows from the left table (the first table in the JOIN clause) and the matched rows from the right table.
