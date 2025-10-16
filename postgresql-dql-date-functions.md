@@ -7,7 +7,7 @@
 
 # DQL - Date Functions
 * Date functions in PostgreSQL are used to perform various operations on date and timestamp data stored in the database.
-* They allow for manipulation, extraction, formatting, and calculation of dates and times.
+* They allow for manipulation, extraction, formatting, and calculation of dates and times. 
 
 ## Date functions in PostgreSQL:
 ### Current Date (CURRENT_DATE):
