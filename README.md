@@ -10,7 +10,7 @@
     * Create
     * Alter
     * Drop
-* ### [DDL - Constraints](postgresql-ddl-constraints.md)
+* ### [DDL - Constraints](postgresql-ddl-constraints.md) 
     * Not Null
     * Unique
     * Check
