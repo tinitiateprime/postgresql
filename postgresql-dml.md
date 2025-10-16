@@ -79,8 +79,11 @@ UPDATE emp.EmpProjects SET EndDate = '2024-06-01'
 -- Delete a dept
 DELETE FROM emp.dept WHERE deptid = 3000;
 
+
 -- Remove an employee
-DELETE FROM emp.emp WHERE empid = 101;
+DELETE FROM employees.emp
+WHERE empno = 101;
+
 ```
 
 ##### [Back To Context](./README.md)
