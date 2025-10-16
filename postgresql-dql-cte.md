@@ -13,7 +13,7 @@
 ## Creating a CTE
 * To create a CTE, you use the `WITH` keyword.
 ```sql
--- Define a CTE to get employees with job title 'manager'
+-- Define a CTE to get employees with job title 'manager' 
 WITH managers AS (
     SELECT empno, ename, job, sal
     FROM employees.emp
