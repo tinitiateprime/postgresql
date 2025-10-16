@@ -13,7 +13,7 @@
 ### Length Function (LENGTH):
 * Returns the number of characters in a string.
 ```sql
--- Retrieve the length of the 'ename' column in the employees table
+-- Retrieve the length of the 'ename' column in the employees table 
 SELECT LENGTH(ename) FROM employees.emp;
 ```
 ### Substring Function (SUBSTRING):
