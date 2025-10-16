@@ -12,7 +12,7 @@
 * **Numeric** data types are used to store numbers. There are several different numeric data types available, each with its own range and precision. The most common numeric data types are:
 
     * **INTEGER (INT)** - Stores whole numbers from -2147483648 to 2147483647. 
-        * **Example:** `age INT`.
+        * **Example:** `age INT`. 
 
     * **BIGINT** - Stores whole numbers from -9223372036854775808 to 9223372036854775807. 
         * **Example:** `employee_id BIGINT`.
