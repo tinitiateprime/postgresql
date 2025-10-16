@@ -113,8 +113,7 @@ WHERE sal > 2500;
 ```sql
 -- Retrieve employees hired on or after '1982-01-01'
 SELECT *
-FROM employees.emp
-WHERE hiredate >= '1982-01-01';
+FROM employees.emp WHERE hiredate >= '1982-01-01';
 ```
 ### Less Than (<):
 * The less than operator (<) filters rows where the value in a column is less than a specified value.
