@@ -15,7 +15,7 @@
 - **Extensibility**: It allows users to define their own data types, functions, and more, extending the core functionality of the database.
 - **Data Integrity**: PostgreSQL provides robust data integrity features, including constraints, foreign keys, and transactions, ensuring data reliability.
 - **Scalability**: It can handle large volumes of data and is designed to scale both vertically and horizontally.
-- **Security**: PostgreSQL offers various security features, including SSL support, role-based access control, and encryption, to protect data.
+- **Security**: PostgreSQL offers various security features, including SSL support, role-based access control, and encryption, to protect data. 
 - **Community and Support**: PostgreSQL has a large and active community, providing support, documentation, and frequent updates.
 
 ## Use Cases
