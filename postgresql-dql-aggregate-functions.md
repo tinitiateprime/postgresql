@@ -6,7 +6,7 @@
 ##### [Back To Context](./README.md)
 
 # DQL - Aggregate Functions
-* Aggregate functions in PostgreSQL are used to perform calculations on a set of values and return a single value as a result.
+* Aggregate functions in PostgreSQL are used to perform calculations on a set of values and return a single value as a result. 
 * They allow you to derive summary statistics or perform calculations across multiple rows in a table.
 * These functions can be combined with other clauses like GROUP BY, HAVING, and DISTINCT to perform more sophisticated analysis and summarization of data in PostgreSQL.
 
