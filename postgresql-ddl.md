@@ -26,34 +26,47 @@ SET search_path TO emp;
 
 -- DDL Create Command
 -- Create dept table
-CREATE TABLE dept (
-    deptid  integer,
-    dname   varchar(100)
+CREATE TABLE employees.dept (
+    deptno INT,
+    dname  VARCHAR(14),
+    loc    VARCHAR(13)
 );
 
+
 -- Create emp table
-CREATE TABLE emp (
-    empid    integer,
-    ename    varchar(100),
-    sal      numeric(7,2),
-    deptid   integer
+CREATE TABLE employees.emp (
+    empno        INT,
+    ename        VARCHAR(10),
+    job          VARCHAR(9),
+    mgr          NUMERIC(4),
+    sal          NUMERIC(7,2),
+    commission   NUMERIC(7,2),
+    deptno       INT
+);
+
+-- Create Salgrade table
+CREATE TABLE employees.salgrade (
+    grade INT,
+    losal INT,
+    hisal INT
 );
 
 -- Create projects table
-CREATE TABLE projects (
-    ProjectID      integer,
-    ProjectName    varchar(100),
-    ProjectBudget  numeric(12,2)
+CREATE TABLE employees.projects (
+    projectno          INT,
+    budget             NUMERIC(7,2),
+    monthly_commission NUMERIC(7,2)
 );
 
 -- Create empprojects table
-CREATE TABLE EmpProjects (
-    EP_ID       integer,
-    EmpID       integer,
-    ProjectID   integer,
-    StartDate   date,
-    EndDate     date
+CREATE TABLE employees.emp_projects (
+    emp_projectno INT,
+    empno         INT,
+    projectno     INT,
+    start_date    DATE,
+    end_date      DATE
 );
+
 ```
 
 ### ALTER:
