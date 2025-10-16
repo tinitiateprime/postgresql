@@ -6,7 +6,7 @@
 ##### [Back To Context](./README.md)
 
 # DQL - Analytical Functions
-* Analytical functions in PostgreSQL are used to perform calculations on a group of rows and return a single result set for each group, based on the values in one or more columns, often within a specified window or partition.
+* Analytical functions in PostgreSQL are used to perform calculations on a group of rows and return a single result set for each group, based on the values in one or more columns, often within a specified window or partition. 
 * They enable performing advanced calculations and aggregations on your data for advanced data analysis and reports.
 * These functions are typically used in conjunction with the 'OVER' clause to define the window or subset of rows over which the function should operate.
 * The OVER clause can include 'PARTITION BY' or 'ORDER BY' specifications to control the behavior of the window function.
